@@ -1,0 +1,31 @@
+{
+ "cellCount3D": 168,
+ "zeroCells3D": 78,
+ "selectCell": "clicked",
+ "evidenceHead": "Machine learning — Data / AI\n23.7% required or preferred\n58 of 245 analyzable listings\nRequired 45 · Preferred 13",
+ "evidenceListings": 58,
+ "evidenceFirstStatus": "required",
+ "drillVisible": true,
+ "drillTitle": "Drill-down: Data / AI — normalized positions",
+ "drillRows": 14,
+ "drillFirstRowLabel": "AI / ML Engineer\nn=112 analyzable",
+ "drillCellClick": "clicked AI / ML Engineer/machine-learning",
+ "drillCellEvidence": "Machine learning — AI / ML Engineer\n25% required or preferred\n28 of 112 analyzable listings\nRequired 20 · Preferred 8",
+ "toolCells": 168,
+ "toolFirstColLabel": "Claude",
+ "selectedClearedOnTab": "Evidence\nselect a cell (click, tap, or Enter) to see the matching listings, excerpts, and source links",
+ "mentionLegend": "0\n20\n40\n60\n80\n100\n% any mention · 0–100% scale\nobserved zero (scanned, unmentioned)\nno scannable text (none in this popu",
+ "tableRows2D": 28,
+ "tableCols2D": 26,
+ "firstDataRow": "Engineering\nn=330 analyzable | 4.5, 6.4, 2.1, 5.8",
+ "filteredRows2D": 15,
+ "rotAfter": "-20.0",
+ "rotAfterReset": "-35.0",
+ "desktopOverflow": false,
+ "consoleErrors": [],
+ "exceptions": [],
+ "logErrors": [
+  "Failed to load resource: the server responded with a status of 404 (File not found)"
+ ],
+ "netFailures": []
+}

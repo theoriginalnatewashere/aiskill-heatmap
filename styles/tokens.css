@@ -1,0 +1,104 @@
+/* ============================================================
+   tokens.css — design tokens
+   Ported from the Lovable reference project (src/styles.css).
+   Editorial research-infographic system: pale celadon ground,
+   deep slate-teal ink, coral accent, teal secondary,
+   hairline rules instead of shadows.
+
+   RULES (from design-system/dashboard-style-guide.md):
+   - All colors are oklch. Never hardcode a color in a component.
+   - All numerals render through .num (mono + tabular-nums).
+   - Elevation = hairline rules; the ONLY shadow is the
+     provenance overlay's hard offset shadow.
+   - Color is semantic or absent; see class roles below.
+   ============================================================ */
+
+:root {
+  /* ---- palette (semantic roles) ---- */
+  --canvas:     oklch(0.905 0.025 176);  /* page ground (pale celadon)   */
+  --paper:      oklch(0.965 0.011 176);  /* surface / panel              */
+  --ink:        oklch(0.295 0.032 191);  /* primary text & structure     */
+  --ink-soft:   oklch(0.52 0.028 191);   /* secondary text, tick labels  */
+  --coral:      oklch(0.625 0.155 33);   /* accent: emphasis, warn, links, focus */
+  --coral-soft: oklch(0.78 0.075 33);    /* soft accent (mid status)     */
+  --teal:       oklch(0.63 0.078 178);   /* secondary / positive         */
+  --teal-soft:  oklch(0.8 0.045 178);    /* lowest tier, hero kicker     */
+  --slate:      oklch(0.375 0.032 183);  /* third data color             */
+  --rule:       oklch(0.79 0.028 176);   /* hairline rules, borders      */
+  --rule-soft:  oklch(0.86 0.02 176);    /* faint rules, bar tracks      */
+
+  /* ---- typography ---- */
+  --font-display: "Archivo", "Segoe UI", sans-serif;
+  --font-body:    "Asap", "Segoe UI", sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, monospace;
+
+  /* ---- shape ---- */
+  --radius: 0.25rem;              /* scale exists; surfaces stay square by default */
+
+  /* ---- elevation: hairlines, one overlay exception ---- */
+  --overlay-shadow: 4px 4px 0 0 var(--rule);
+
+  /* ---- layout ---- */
+  --container: 1140px;
+}
+
+/* ---- base ---- */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+a { color: var(--coral); }
+
+:focus-visible { outline: 2px solid var(--coral); outline-offset: 1px; }
+
+/* ---- token utilities (names preserved from the reference) ---- */
+
+/* mono numerals: EVERY percentage, count, id, axis value, badge */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* micro axis / filter / kicker labels */
+.tick-label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+
+/* the standard surface: paper on canvas, hairline border, no shadow */
+.panel {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+}
+
+.hairline { border-top: 1px solid var(--rule); }
+
+/* data fills: semantic token colors, referenced by name from data */
+.fill-coral     { background: var(--coral); }
+.fill-coral-soft{ background: var(--coral-soft); }
+.fill-teal      { background: var(--teal); }
+.fill-teal-soft { background: var(--teal-soft); }
+.fill-slate     { background: var(--slate); }
+.fill-ink       { background: var(--ink); }
+.fill-rule      { background: var(--rule); }
+
+.text-coral { color: var(--coral); }
+.text-teal  { color: var(--teal); }
+.text-slate { color: var(--slate); }

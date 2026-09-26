@@ -1,0 +1,17 @@
+{
+  "viewportW": 390,
+  "scrollW": 390,
+  "horizontalOverflow": false,
+  "nameText": null,
+  "nameFontSize": null,
+  "nameLines": null,
+  "nameWithinViewport": null,
+  "imgLoaded": false,
+  "imgNatural": null,
+  "imgDisplayW": null,
+  "linksCount": 0,
+  "links": [],
+  "kickerText": null,
+  "domOrder": "section-head > section-lede > ",
+  "decodeNote": "no img element"
+}

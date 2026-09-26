@@ -1,0 +1,533 @@
+group,level,skill_id,req_or_pref,required,preferred,overlap,mention,denominator,pct_req_or_pref,pct_mention,small_group
+AI / ML Engineer,position,machine-learning,28,20,8,0,50,112,25.0,44.6,False
+AI / ML Researcher,position,machine-learning,6,6,0,0,7,12,50.0,58.3,False
+AI Consultant / Strategist,position,machine-learning,0,0,0,0,2,4,0.0,50.0,True
+AI Mentor / Instructor,position,machine-learning,2,1,1,0,3,5,40.0,60.0,True
+AI Product Manager,position,machine-learning,2,0,2,0,2,7,28.6,28.6,True
+AI Trainer / Data Annotation,position,machine-learning,1,1,0,0,5,27,3.7,18.5,False
+Account Executive,position,machine-learning,0,0,0,0,1,32,0.0,3.1,False
+Account Manager,position,machine-learning,6,4,2,0,7,12,50.0,58.3,False
+Analyst (Other),position,machine-learning,2,1,1,0,4,12,16.7,33.3,False
+Backend Developer,position,machine-learning,1,1,0,0,3,17,5.9,17.6,False
+Blockchain Developer,position,machine-learning,1,1,0,0,1,3,33.3,33.3,True
+Brand / Communications,position,machine-learning,0,0,0,0,1,2,0.0,50.0,True
+Business Development Manager,position,machine-learning,1,1,0,0,1,7,14.3,14.3,True
+Customer Support / Success,position,machine-learning,3,2,1,0,3,30,10.0,10.0,False
+Data Analyst / BI,position,machine-learning,1,1,0,0,1,11,9.1,9.1,False
+Data Engineer,position,machine-learning,3,2,1,0,4,12,25.0,33.3,False
+Data Scientist,position,machine-learning,12,12,0,0,18,33,36.4,54.5,False
+DevOps / SRE / Platform,position,machine-learning,9,5,4,0,13,30,30.0,43.3,False
+Engineer (Other),position,machine-learning,1,0,1,0,2,34,2.9,5.9,False
+Engineering Manager,position,machine-learning,0,0,0,0,2,28,0.0,7.1,False
+Executive / C-level,position,machine-learning,2,2,0,0,3,27,7.4,11.1,False
+Executive / Leadership (generic),position,machine-learning,5,4,1,0,7,27,18.5,25.9,False
+Finance / Accounting,position,machine-learning,1,0,1,0,4,43,2.3,9.3,False
+Founding Engineer,position,machine-learning,1,0,1,0,1,8,12.5,12.5,True
+Full-stack Developer,position,machine-learning,5,2,3,0,13,42,11.9,31.0,False
+Head of Engineering,position,machine-learning,1,1,0,0,1,2,50.0,50.0,True
+Implementation / Onboarding,position,machine-learning,1,1,0,0,1,4,25.0,25.0,True
+Infrastructure / IT Admin,position,machine-learning,2,2,0,0,5,12,16.7,41.7,False
+Legal / Compliance,position,machine-learning,1,0,1,0,1,15,6.7,6.7,False
+MLOps / ML Platform Engineer,position,machine-learning,3,2,1,0,7,8,37.5,87.5,True
+Manager (Other),position,machine-learning,3,2,1,0,5,27,11.1,18.5,False
+Marketing Manager / Specialist,position,machine-learning,2,2,0,0,2,18,11.1,11.1,False
+Operations Manager / Analyst,position,machine-learning,2,2,0,0,2,17,11.8,11.8,False
+Other / Unclassified,position,machine-learning,1,1,0,0,5,24,4.2,20.8,False
+Partnerships / Alliances,position,machine-learning,0,0,0,0,1,14,0.0,7.1,False
+Performance / Growth Marketing,position,machine-learning,0,0,0,0,1,3,0.0,33.3,True
+Product Manager / Owner,position,machine-learning,6,4,2,0,8,27,22.2,29.6,False
+Project / Program Manager,position,machine-learning,1,1,0,0,6,17,5.9,35.3,False
+QA / Test Engineer,position,machine-learning,1,0,1,0,3,11,9.1,27.3,False
+Recruiter / Talent Acquisition,position,machine-learning,3,2,1,0,4,10,30.0,40.0,False
+SDR / BDR,position,machine-learning,1,0,1,0,2,15,6.7,13.3,False
+Sales / BD (Other),position,machine-learning,1,1,0,0,1,12,8.3,8.3,False
+Sales Engineer / Solutions,position,machine-learning,2,2,0,0,6,20,10.0,30.0,False
+Scientific Researcher,position,machine-learning,1,0,1,0,1,2,50.0,50.0,True
+Security Engineer,position,machine-learning,8,3,5,0,9,51,15.7,17.6,False
+Software Engineer,position,machine-learning,8,5,3,0,12,49,16.3,24.5,False
+Solutions / Technical Architect,position,machine-learning,6,4,2,0,7,18,33.3,38.9,False
+Specialist (Other),position,machine-learning,1,0,1,0,6,19,5.3,31.6,False
+Technical Support / IT Support,position,machine-learning,2,1,1,0,3,11,18.2,27.3,False
+UX / Product Designer,position,machine-learning,3,2,1,0,3,20,15.0,15.0,False
+AI / ML Engineer,position,ai-literacy-ai-tool-usage,7,5,2,0,13,112,6.2,11.6,False
+AI Automation / Workflow Specialist,position,ai-literacy-ai-tool-usage,3,3,0,0,4,6,50.0,66.7,True
+AI Consultant / Strategist,position,ai-literacy-ai-tool-usage,2,2,0,0,3,4,50.0,75.0,True
+AI Mentor / Instructor,position,ai-literacy-ai-tool-usage,1,1,0,0,1,5,20.0,20.0,True
+AI Product Manager,position,ai-literacy-ai-tool-usage,1,1,0,0,2,7,14.3,28.6,True
+Account Executive,position,ai-literacy-ai-tool-usage,3,2,1,0,6,32,9.4,18.8,False
+Account Manager,position,ai-literacy-ai-tool-usage,2,1,1,0,4,12,16.7,33.3,False
+Analyst (Other),position,ai-literacy-ai-tool-usage,3,2,1,0,5,12,25.0,41.7,False
+Analytics Engineer,position,ai-literacy-ai-tool-usage,1,1,0,0,1,4,25.0,25.0,True
+Backend Developer,position,ai-literacy-ai-tool-usage,0,0,0,0,1,17,0.0,5.9,False
+Business Development Manager,position,ai-literacy-ai-tool-usage,2,1,1,0,3,7,28.6,42.9,True
+Cloud Engineer / Architect,position,ai-literacy-ai-tool-usage,1,1,0,0,1,3,33.3,33.3,True
+Consultant (Other),position,ai-literacy-ai-tool-usage,0,0,0,0,1,6,0.0,16.7,True
+Content Writer / Creator,position,ai-literacy-ai-tool-usage,1,1,0,0,2,5,20.0,40.0,True
+Customer Support / Success,position,ai-literacy-ai-tool-usage,4,3,1,0,10,30,13.3,33.3,False
+Data Analyst / BI,position,ai-literacy-ai-tool-usage,3,2,1,0,6,11,27.3,54.5,False
+Data Engineer,position,ai-literacy-ai-tool-usage,1,1,0,0,1,12,8.3,8.3,False
+Data Scientist,position,ai-literacy-ai-tool-usage,4,3,1,0,6,33,12.1,18.2,False
+DevOps / SRE / Platform,position,ai-literacy-ai-tool-usage,5,3,2,0,6,30,16.7,20.0,False
+Editor / Proofreader,position,ai-literacy-ai-tool-usage,3,1,2,0,3,3,100.0,100.0,True
+Engineer (Other),position,ai-literacy-ai-tool-usage,7,5,2,0,8,34,20.6,23.5,False
+Engineering Manager,position,ai-literacy-ai-tool-usage,1,1,0,0,1,28,3.6,3.6,False
+Executive / C-level,position,ai-literacy-ai-tool-usage,1,1,0,0,3,27,3.7,11.1,False
+Executive / Leadership (generic),position,ai-literacy-ai-tool-usage,2,2,0,0,4,27,7.4,14.8,False
+Finance / Accounting,position,ai-literacy-ai-tool-usage,10,9,1,0,12,43,23.3,27.9,False
+Frontend Developer,position,ai-literacy-ai-tool-usage,1,1,0,0,3,13,7.7,23.1,False
+Full-stack Developer,position,ai-literacy-ai-tool-usage,1,1,0,0,4,42,2.4,9.5,False
+Graphic / Visual / Motion Designer,position,ai-literacy-ai-tool-usage,5,3,2,0,6,9,55.6,66.7,True
+HR / People Operations,position,ai-literacy-ai-tool-usage,2,2,0,0,4,14,14.3,28.6,False
+Implementation / Onboarding,position,ai-literacy-ai-tool-usage,1,1,0,0,1,4,25.0,25.0,True
+Infrastructure / IT Admin,position,ai-literacy-ai-tool-usage,1,0,1,0,1,12,8.3,8.3,False
+Legal / Compliance,position,ai-literacy-ai-tool-usage,0,0,0,0,2,15,0.0,13.3,False
+Manager (Other),position,ai-literacy-ai-tool-usage,4,2,2,0,6,27,14.8,22.2,False
+Marketing Manager / Specialist,position,ai-literacy-ai-tool-usage,8,7,1,0,9,18,44.4,50.0,False
+Operations Manager / Analyst,position,ai-literacy-ai-tool-usage,4,3,1,0,7,17,23.5,41.2,False
+Other / Unclassified,position,ai-literacy-ai-tool-usage,4,0,4,0,5,24,16.7,20.8,False
+Partnerships / Alliances,position,ai-literacy-ai-tool-usage,2,2,0,0,2,14,14.3,14.3,False
+Product Manager / Owner,position,ai-literacy-ai-tool-usage,6,5,1,0,9,27,22.2,33.3,False
+Project / Program Manager,position,ai-literacy-ai-tool-usage,2,2,0,0,7,17,11.8,41.2,False
+QA / Test Engineer,position,ai-literacy-ai-tool-usage,4,3,1,0,6,11,36.4,54.5,False
+Recruiter / Talent Acquisition,position,ai-literacy-ai-tool-usage,3,3,0,0,3,10,30.0,30.0,False
+SDR / BDR,position,ai-literacy-ai-tool-usage,2,1,1,0,2,15,13.3,13.3,False
+SEO Specialist,position,ai-literacy-ai-tool-usage,3,3,0,0,4,9,33.3,44.4,True
+Sales / BD (Other),position,ai-literacy-ai-tool-usage,2,2,0,0,3,12,16.7,25.0,False
+Sales Engineer / Solutions,position,ai-literacy-ai-tool-usage,1,1,0,0,2,20,5.0,10.0,False
+Security Engineer,position,ai-literacy-ai-tool-usage,5,4,1,0,9,51,9.8,17.6,False
+Software Engineer,position,ai-literacy-ai-tool-usage,7,4,3,0,10,49,14.3,20.4,False
+Solutions / Technical Architect,position,ai-literacy-ai-tool-usage,1,1,0,0,1,18,5.6,5.6,False
+Specialist (Other),position,ai-literacy-ai-tool-usage,2,2,0,0,3,19,10.5,15.8,False
+Technical Support / IT Support,position,ai-literacy-ai-tool-usage,3,2,1,0,4,11,27.3,36.4,False
+UX / Product Designer,position,ai-literacy-ai-tool-usage,8,8,0,0,11,20,40.0,55.0,False
+AI / ML Engineer,position,ai-agents-agentic-workflows,18,8,10,0,39,112,16.1,34.8,False
+AI / ML Researcher,position,ai-agents-agentic-workflows,1,0,1,0,2,12,8.3,16.7,False
+AI Automation / Workflow Specialist,position,ai-agents-agentic-workflows,3,3,0,0,5,6,50.0,83.3,True
+AI Consultant / Strategist,position,ai-agents-agentic-workflows,1,1,0,0,3,4,25.0,75.0,True
+AI Mentor / Instructor,position,ai-agents-agentic-workflows,1,1,0,0,2,5,20.0,40.0,True
+AI Product Manager,position,ai-agents-agentic-workflows,0,0,0,0,2,7,0.0,28.6,True
+AI Trainer / Data Annotation,position,ai-agents-agentic-workflows,0,0,0,0,1,27,0.0,3.7,False
+Account Executive,position,ai-agents-agentic-workflows,0,0,0,0,11,32,0.0,34.4,False
+Account Manager,position,ai-agents-agentic-workflows,2,2,0,0,3,12,16.7,25.0,False
+Analyst (Other),position,ai-agents-agentic-workflows,3,3,0,0,4,12,25.0,33.3,False
+Analytics Engineer,position,ai-agents-agentic-workflows,3,0,3,0,3,4,75.0,75.0,True
+Backend Developer,position,ai-agents-agentic-workflows,3,2,1,0,8,17,17.6,47.1,False
+Blockchain Developer,position,ai-agents-agentic-workflows,2,1,1,0,2,3,66.7,66.7,True
+Business Development Manager,position,ai-agents-agentic-workflows,0,0,0,0,3,7,0.0,42.9,True
+Cloud Engineer / Architect,position,ai-agents-agentic-workflows,1,1,0,0,1,3,33.3,33.3,True
+Consultant (Other),position,ai-agents-agentic-workflows,1,1,0,0,2,6,16.7,33.3,True
+Content Writer / Creator,position,ai-agents-agentic-workflows,0,0,0,0,2,5,0.0,40.0,True
+Customer Support / Success,position,ai-agents-agentic-workflows,4,4,0,0,8,30,13.3,26.7,False
+Data Analyst / BI,position,ai-agents-agentic-workflows,2,2,0,0,3,11,18.2,27.3,False
+Data Engineer,position,ai-agents-agentic-workflows,1,0,1,0,1,12,8.3,8.3,False
+Data Governance,position,ai-agents-agentic-workflows,1,0,1,0,2,3,33.3,66.7,True
+Data Scientist,position,ai-agents-agentic-workflows,8,4,4,0,11,33,24.2,33.3,False
+DevOps / SRE / Platform,position,ai-agents-agentic-workflows,2,2,0,0,5,30,6.7,16.7,False
+Engineer (Other),position,ai-agents-agentic-workflows,4,4,0,0,7,34,11.8,20.6,False
+Engineering Manager,position,ai-agents-agentic-workflows,1,0,1,0,3,28,3.6,10.7,False
+Executive / C-level,position,ai-agents-agentic-workflows,6,4,2,0,10,27,22.2,37.0,False
+Executive / Leadership (generic),position,ai-agents-agentic-workflows,5,3,2,0,11,27,18.5,40.7,False
+Finance / Accounting,position,ai-agents-agentic-workflows,0,0,0,0,4,43,0.0,9.3,False
+Founding Engineer,position,ai-agents-agentic-workflows,3,1,2,0,4,8,37.5,50.0,True
+Full-stack Developer,position,ai-agents-agentic-workflows,3,2,1,0,15,42,7.1,35.7,False
+Graphic / Visual / Motion Designer,position,ai-agents-agentic-workflows,1,1,0,0,1,9,11.1,11.1,True
+Infrastructure / IT Admin,position,ai-agents-agentic-workflows,4,3,1,0,5,12,33.3,41.7,False
+Legal / Compliance,position,ai-agents-agentic-workflows,0,0,0,0,2,15,0.0,13.3,False
+MLOps / ML Platform Engineer,position,ai-agents-agentic-workflows,2,0,2,0,2,8,25.0,25.0,True
+Manager (Other),position,ai-agents-agentic-workflows,1,0,1,0,3,27,3.7,11.1,False
+Marketing Manager / Specialist,position,ai-agents-agentic-workflows,2,2,0,0,5,18,11.1,27.8,False
+Operations Manager / Analyst,position,ai-agents-agentic-workflows,1,1,0,0,4,17,5.9,23.5,False
+Other / Unclassified,position,ai-agents-agentic-workflows,0,0,0,0,5,24,0.0,20.8,False
+Partnerships / Alliances,position,ai-agents-agentic-workflows,2,1,1,0,3,14,14.3,21.4,False
+Product Manager / Owner,position,ai-agents-agentic-workflows,1,0,1,0,9,27,3.7,33.3,False
+Project / Program Manager,position,ai-agents-agentic-workflows,1,1,0,0,3,17,5.9,17.6,False
+QA / Test Engineer,position,ai-agents-agentic-workflows,1,1,0,0,4,11,9.1,36.4,False
+Recruiter / Talent Acquisition,position,ai-agents-agentic-workflows,0,0,0,0,1,10,0.0,10.0,False
+SDR / BDR,position,ai-agents-agentic-workflows,0,0,0,0,4,15,0.0,26.7,False
+SEO Specialist,position,ai-agents-agentic-workflows,0,0,0,0,1,9,0.0,11.1,True
+Sales / BD (Other),position,ai-agents-agentic-workflows,2,1,1,0,4,12,16.7,33.3,False
+Sales Engineer / Solutions,position,ai-agents-agentic-workflows,2,2,0,0,11,20,10.0,55.0,False
+Sales Operations / RevOps,position,ai-agents-agentic-workflows,0,0,0,0,1,1,0.0,100.0,True
+Security Engineer,position,ai-agents-agentic-workflows,7,6,1,0,18,51,13.7,35.3,False
+Software Engineer,position,ai-agents-agentic-workflows,6,3,3,0,16,49,12.2,32.7,False
+Solutions / Technical Architect,position,ai-agents-agentic-workflows,3,1,2,0,7,18,16.7,38.9,False
+Technical Support / IT Support,position,ai-agents-agentic-workflows,1,1,0,0,2,11,9.1,18.2,False
+UX / Product Designer,position,ai-agents-agentic-workflows,1,1,0,0,4,20,5.0,20.0,False
+AI / ML Engineer,position,llms-large-language-models,23,11,12,0,43,112,20.5,38.4,False
+AI / ML Researcher,position,llms-large-language-models,1,0,1,0,2,12,8.3,16.7,False
+AI Consultant / Strategist,position,llms-large-language-models,0,0,0,0,2,4,0.0,50.0,True
+AI Mentor / Instructor,position,llms-large-language-models,1,1,0,0,2,5,20.0,40.0,True
+AI Product Manager,position,llms-large-language-models,3,3,0,0,4,7,42.9,57.1,True
+AI Trainer / Data Annotation,position,llms-large-language-models,1,1,0,0,1,27,3.7,3.7,False
+Account Manager,position,llms-large-language-models,1,1,0,0,1,12,8.3,8.3,False
+Analyst (Other),position,llms-large-language-models,1,1,0,0,2,12,8.3,16.7,False
+Analytics Engineer,position,llms-large-language-models,1,0,1,0,3,4,25.0,75.0,True
+Backend Developer,position,llms-large-language-models,3,2,1,0,4,17,17.6,23.5,False
+Blockchain Developer,position,llms-large-language-models,1,1,0,0,2,3,33.3,66.7,True
+Brand / Communications,position,llms-large-language-models,0,0,0,0,1,2,0.0,50.0,True
+Business Development Manager,position,llms-large-language-models,1,1,0,0,1,7,14.3,14.3,True
+Cloud Engineer / Architect,position,llms-large-language-models,1,1,0,0,1,3,33.3,33.3,True
+Consultant (Other),position,llms-large-language-models,1,1,0,0,1,6,16.7,16.7,True
+Content Marketing,position,llms-large-language-models,1,1,0,0,1,2,50.0,50.0,True
+Content Writer / Creator,position,llms-large-language-models,0,0,0,0,1,5,0.0,20.0,True
+Customer Support / Success,position,llms-large-language-models,3,3,0,0,3,30,10.0,10.0,False
+Data Analyst / BI,position,llms-large-language-models,3,3,0,0,5,11,27.3,45.5,False
+Data Engineer,position,llms-large-language-models,2,0,2,0,2,12,16.7,16.7,False
+Data Governance,position,llms-large-language-models,0,0,0,0,1,3,0.0,33.3,True
+Data Scientist,position,llms-large-language-models,11,6,5,0,13,33,33.3,39.4,False
+DevOps / SRE / Platform,position,llms-large-language-models,1,1,0,0,2,30,3.3,6.7,False
+Engineer (Other),position,llms-large-language-models,2,2,0,0,4,34,5.9,11.8,False
+Engineering Manager,position,llms-large-language-models,0,0,0,0,3,28,0.0,10.7,False
+Executive / C-level,position,llms-large-language-models,2,1,1,0,6,27,7.4,22.2,False
+Executive / Leadership (generic),position,llms-large-language-models,1,1,0,0,1,27,3.7,3.7,False
+Finance / Accounting,position,llms-large-language-models,0,0,0,0,1,43,0.0,2.3,False
+Founding Engineer,position,llms-large-language-models,2,1,1,0,2,8,25.0,25.0,True
+Frontend Developer,position,llms-large-language-models,1,0,1,0,3,13,7.7,23.1,False
+Full-stack Developer,position,llms-large-language-models,2,1,1,0,6,42,4.8,14.3,False
+GenAI / LLM Engineer,position,llms-large-language-models,1,0,1,0,1,1,100.0,100.0,True
+Graphic / Visual / Motion Designer,position,llms-large-language-models,1,1,0,0,1,9,11.1,11.1,True
+Head of Engineering,position,llms-large-language-models,0,0,0,0,1,2,0.0,50.0,True
+Infrastructure / IT Admin,position,llms-large-language-models,3,3,0,0,4,12,25.0,33.3,False
+Legal / Compliance,position,llms-large-language-models,2,1,1,0,2,15,13.3,13.3,False
+MLOps / ML Platform Engineer,position,llms-large-language-models,3,0,3,0,4,8,37.5,50.0,True
+Manager (Other),position,llms-large-language-models,1,0,1,0,2,27,3.7,7.4,False
+Marketing Manager / Specialist,position,llms-large-language-models,0,0,0,0,2,18,0.0,11.1,False
+Operations Manager / Analyst,position,llms-large-language-models,0,0,0,0,1,17,0.0,5.9,False
+Other / Unclassified,position,llms-large-language-models,1,1,0,0,6,24,4.2,25.0,False
+Product Manager / Owner,position,llms-large-language-models,3,0,3,0,5,27,11.1,18.5,False
+Project / Program Manager,position,llms-large-language-models,1,1,0,0,1,17,5.9,5.9,False
+QA / Test Engineer,position,llms-large-language-models,1,1,0,0,3,11,9.1,27.3,False
+SDR / BDR,position,llms-large-language-models,1,0,1,0,2,15,6.7,13.3,False
+SEO Specialist,position,llms-large-language-models,4,4,0,0,5,9,44.4,55.6,True
+Sales / BD (Other),position,llms-large-language-models,2,2,0,0,2,12,16.7,16.7,False
+Sales Engineer / Solutions,position,llms-large-language-models,1,0,1,0,3,20,5.0,15.0,False
+Security Engineer,position,llms-large-language-models,7,4,3,0,11,51,13.7,21.6,False
+Software Engineer,position,llms-large-language-models,3,1,2,0,6,49,6.1,12.2,False
+Solutions / Technical Architect,position,llms-large-language-models,2,1,1,0,3,18,11.1,16.7,False
+UX / Product Designer,position,llms-large-language-models,2,1,1,0,5,20,10.0,25.0,False
+AI / ML Engineer,position,data-science,4,3,1,0,16,112,3.6,14.3,False
+AI / ML Researcher,position,data-science,1,1,0,0,1,12,8.3,8.3,False
+AI Mentor / Instructor,position,data-science,1,1,0,0,2,5,20.0,40.0,True
+AI Product Manager,position,data-science,1,1,0,0,1,7,14.3,14.3,True
+Account Executive,position,data-science,0,0,0,0,3,32,0.0,9.4,False
+Account Manager,position,data-science,0,0,0,0,1,12,0.0,8.3,False
+Analyst (Other),position,data-science,1,1,0,0,3,12,8.3,25.0,False
+Business Development Manager,position,data-science,1,1,0,0,1,7,14.3,14.3,True
+Data Analyst / BI,position,data-science,2,2,0,0,2,11,18.2,18.2,False
+Data Engineer,position,data-science,3,1,2,0,5,12,25.0,41.7,False
+Data Governance,position,data-science,1,1,0,0,1,3,33.3,33.3,True
+Data Scientist,position,data-science,19,15,4,0,32,33,57.6,97.0,False
+DevOps / SRE / Platform,position,data-science,1,1,0,0,3,30,3.3,10.0,False
+Editor / Proofreader,position,data-science,0,0,0,0,3,3,0.0,100.0,True
+Embedded / Firmware Engineer,position,data-science,0,0,0,0,4,6,0.0,66.7,True
+Engineer (Other),position,data-science,0,0,0,0,9,34,0.0,26.5,False
+Engineering Manager,position,data-science,0,0,0,0,12,28,0.0,42.9,False
+Executive / Leadership (generic),position,data-science,1,1,0,0,4,27,3.7,14.8,False
+Finance / Accounting,position,data-science,0,0,0,0,8,43,0.0,18.6,False
+Frontend Developer,position,data-science,0,0,0,0,2,13,0.0,15.4,False
+Full-stack Developer,position,data-science,1,1,0,0,1,42,2.4,2.4,False
+HR / People Operations,position,data-science,0,0,0,0,4,14,0.0,28.6,False
+Infrastructure / IT Admin,position,data-science,0,0,0,0,1,12,0.0,8.3,False
+Legal / Compliance,position,data-science,0,0,0,0,2,15,0.0,13.3,False
+MLOps / ML Platform Engineer,position,data-science,1,0,1,0,1,8,12.5,12.5,True
+Manager (Other),position,data-science,3,3,0,0,6,27,11.1,22.2,False
+Marketing Manager / Specialist,position,data-science,1,1,0,0,1,18,5.6,5.6,False
+Other / Unclassified,position,data-science,1,1,0,0,3,24,4.2,12.5,False
+Partnerships / Alliances,position,data-science,0,0,0,0,3,14,0.0,21.4,False
+Product Manager / Owner,position,data-science,3,1,2,0,5,27,11.1,18.5,False
+Project / Program Manager,position,data-science,0,0,0,0,1,17,0.0,5.9,False
+QA / Test Engineer,position,data-science,0,0,0,0,1,11,0.0,9.1,False
+SEO Specialist,position,data-science,1,1,0,0,1,9,11.1,11.1,True
+Sales Engineer / Solutions,position,data-science,0,0,0,0,1,20,0.0,5.0,False
+Security Engineer,position,data-science,0,0,0,0,3,51,0.0,5.9,False
+Software Engineer,position,data-science,2,0,2,0,7,49,4.1,14.3,False
+Solutions / Technical Architect,position,data-science,0,0,0,0,4,18,0.0,22.2,False
+Technical Support / IT Support,position,data-science,0,0,0,0,3,11,0.0,27.3,False
+UX / Market Researcher,position,data-science,0,0,0,0,1,1,0.0,100.0,True
+UX / Product Designer,position,data-science,0,0,0,0,1,20,0.0,5.0,False
+AI / ML Engineer,position,generative-ai,3,2,1,0,9,112,2.7,8.0,False
+AI / ML Researcher,position,generative-ai,1,1,0,0,2,12,8.3,16.7,False
+AI Mentor / Instructor,position,generative-ai,1,0,1,0,2,5,20.0,40.0,True
+Cloud Engineer / Architect,position,generative-ai,1,1,0,0,1,3,33.3,33.3,True
+Customer Support / Success,position,generative-ai,0,0,0,0,1,30,0.0,3.3,False
+Data Engineer,position,generative-ai,2,1,1,0,2,12,16.7,16.7,False
+Data Scientist,position,generative-ai,1,0,1,0,2,33,3.0,6.1,False
+Editor / Proofreader,position,generative-ai,0,0,0,0,2,3,0.0,66.7,True
+Engineer (Other),position,generative-ai,2,2,0,0,2,34,5.9,5.9,False
+Executive / C-level,position,generative-ai,0,0,0,0,1,27,0.0,3.7,False
+Executive / Leadership (generic),position,generative-ai,2,1,1,0,3,27,7.4,11.1,False
+Finance / Accounting,position,generative-ai,1,1,0,0,2,43,2.3,4.7,False
+Full-stack Developer,position,generative-ai,1,1,0,0,3,42,2.4,7.1,False
+Graphic / Visual / Motion Designer,position,generative-ai,3,2,1,0,4,9,33.3,44.4,True
+Infrastructure / IT Admin,position,generative-ai,1,1,0,0,1,12,8.3,8.3,False
+Legal / Compliance,position,generative-ai,0,0,0,0,2,15,0.0,13.3,False
+Manager (Other),position,generative-ai,1,0,1,0,2,27,3.7,7.4,False
+Marketing Manager / Specialist,position,generative-ai,2,2,0,0,2,18,11.1,11.1,False
+Operations Manager / Analyst,position,generative-ai,0,0,0,0,1,17,0.0,5.9,False
+Project / Program Manager,position,generative-ai,1,1,0,0,1,17,5.9,5.9,False
+QA / Test Engineer,position,generative-ai,1,1,0,0,1,11,9.1,9.1,False
+Sales Engineer / Solutions,position,generative-ai,1,1,0,0,2,20,5.0,10.0,False
+Solutions / Technical Architect,position,generative-ai,1,0,1,0,1,18,5.6,5.6,False
+Specialist (Other),position,generative-ai,1,1,0,0,1,19,5.3,5.3,False
+AI / ML Engineer,position,mlops-model-deployment,7,5,2,0,11,112,6.2,9.8,False
+Account Manager,position,mlops-model-deployment,0,0,0,0,1,12,0.0,8.3,False
+Content Writer / Creator,position,mlops-model-deployment,0,0,0,0,1,5,0.0,20.0,True
+Data Scientist,position,mlops-model-deployment,3,2,1,0,4,33,9.1,12.1,False
+DevOps / SRE / Platform,position,mlops-model-deployment,1,1,0,0,1,30,3.3,3.3,False
+Executive / Leadership (generic),position,mlops-model-deployment,1,1,0,0,1,27,3.7,3.7,False
+Frontend Developer,position,mlops-model-deployment,1,1,0,0,1,13,7.7,7.7,False
+Full-stack Developer,position,mlops-model-deployment,1,1,0,0,1,42,2.4,2.4,False
+MLOps / ML Platform Engineer,position,mlops-model-deployment,3,1,2,0,5,8,37.5,62.5,True
+Manager (Other),position,mlops-model-deployment,0,0,0,0,2,27,0.0,7.4,False
+Marketing Manager / Specialist,position,mlops-model-deployment,0,0,0,0,1,18,0.0,5.6,False
+Other / Unclassified,position,mlops-model-deployment,0,0,0,0,1,24,0.0,4.2,False
+Partnerships / Alliances,position,mlops-model-deployment,0,0,0,0,1,14,0.0,7.1,False
+QA / Test Engineer,position,mlops-model-deployment,0,0,0,0,1,11,0.0,9.1,False
+Security Engineer,position,mlops-model-deployment,2,1,1,0,2,51,3.9,3.9,False
+Software Engineer,position,mlops-model-deployment,0,0,0,0,1,49,0.0,2.0,False
+Solutions / Technical Architect,position,mlops-model-deployment,1,1,0,0,4,18,5.6,22.2,False
+AI / ML Engineer,position,rag-retrieval-augmented-generation,11,6,5,0,19,112,9.8,17.0,False
+AI Mentor / Instructor,position,rag-retrieval-augmented-generation,0,0,0,0,1,5,0.0,20.0,True
+Analyst (Other),position,rag-retrieval-augmented-generation,0,0,0,0,1,12,0.0,8.3,False
+Customer Support / Success,position,rag-retrieval-augmented-generation,1,1,0,0,1,30,3.3,3.3,False
+Data Scientist,position,rag-retrieval-augmented-generation,1,1,0,0,1,33,3.0,3.0,False
+Full-stack Developer,position,rag-retrieval-augmented-generation,1,1,0,0,1,42,2.4,2.4,False
+Infrastructure / IT Admin,position,rag-retrieval-augmented-generation,0,0,0,0,1,12,0.0,8.3,False
+Other / Unclassified,position,rag-retrieval-augmented-generation,0,0,0,0,1,24,0.0,4.2,False
+Sales / BD (Other),position,rag-retrieval-augmented-generation,0,0,0,0,1,12,0.0,8.3,False
+Sales Engineer / Solutions,position,rag-retrieval-augmented-generation,1,0,1,0,3,20,5.0,15.0,False
+Security Engineer,position,rag-retrieval-augmented-generation,1,1,0,0,1,51,2.0,2.0,False
+Software Engineer,position,rag-retrieval-augmented-generation,1,1,0,0,1,49,2.0,2.0,False
+Solutions / Technical Architect,position,rag-retrieval-augmented-generation,0,0,0,0,1,18,0.0,5.6,False
+AI / ML Engineer,position,workflow-process-automation,1,1,0,0,1,112,0.9,0.9,False
+AI / ML Researcher,position,workflow-process-automation,1,1,0,0,1,12,8.3,8.3,False
+Account Manager,position,workflow-process-automation,1,0,1,0,1,12,8.3,8.3,False
+Customer Support / Success,position,workflow-process-automation,1,1,0,0,2,30,3.3,6.7,False
+Data Scientist,position,workflow-process-automation,0,0,0,0,2,33,0.0,6.1,False
+Engineer (Other),position,workflow-process-automation,0,0,0,0,1,34,0.0,2.9,False
+Executive / C-level,position,workflow-process-automation,0,0,0,0,1,27,0.0,3.7,False
+Executive / Leadership (generic),position,workflow-process-automation,1,0,1,0,2,27,3.7,7.4,False
+Finance / Accounting,position,workflow-process-automation,5,3,2,0,9,43,11.6,20.9,False
+Full-stack Developer,position,workflow-process-automation,1,1,0,0,1,42,2.4,2.4,False
+Manager (Other),position,workflow-process-automation,2,1,1,0,3,27,7.4,11.1,False
+Operations Manager / Analyst,position,workflow-process-automation,1,1,0,0,1,17,5.9,5.9,False
+Other / Unclassified,position,workflow-process-automation,3,1,2,0,3,24,12.5,12.5,False
+Recruiter / Talent Acquisition,position,workflow-process-automation,0,0,0,0,1,10,0.0,10.0,False
+Sales / BD (Other),position,workflow-process-automation,0,0,0,0,2,12,0.0,16.7,False
+Sales Engineer / Solutions,position,workflow-process-automation,0,0,0,0,1,20,0.0,5.0,False
+AI / ML Engineer,position,model-evaluation-evals,3,3,0,0,8,112,2.7,7.1,False
+AI / ML Researcher,position,model-evaluation-evals,0,0,0,0,1,12,0.0,8.3,False
+AI Mentor / Instructor,position,model-evaluation-evals,1,1,0,0,1,5,20.0,20.0,True
+Account Manager,position,model-evaluation-evals,1,1,0,0,1,12,8.3,8.3,False
+Analyst (Other),position,model-evaluation-evals,1,1,0,0,1,12,8.3,8.3,False
+Analytics Engineer,position,model-evaluation-evals,2,0,2,0,2,4,50.0,50.0,True
+Backend Developer,position,model-evaluation-evals,1,0,1,0,1,17,5.9,5.9,False
+Brand / Communications,position,model-evaluation-evals,0,0,0,0,1,2,0.0,50.0,True
+Data Analyst / BI,position,model-evaluation-evals,0,0,0,0,1,11,0.0,9.1,False
+Data Scientist,position,model-evaluation-evals,3,2,1,0,5,33,9.1,15.2,False
+Engineer (Other),position,model-evaluation-evals,1,1,0,0,2,34,2.9,5.9,False
+Finance / Accounting,position,model-evaluation-evals,0,0,0,0,1,43,0.0,2.3,False
+Full-stack Developer,position,model-evaluation-evals,0,0,0,0,1,42,0.0,2.4,False
+Product Manager / Owner,position,model-evaluation-evals,0,0,0,0,1,27,0.0,3.7,False
+Software Engineer,position,model-evaluation-evals,1,0,1,0,1,49,2.0,2.0,False
+Solutions / Technical Architect,position,model-evaluation-evals,1,0,1,0,1,18,5.6,5.6,False
+AI / ML Engineer,position,computer-vision,4,3,1,0,5,112,3.6,4.5,False
+AI / ML Researcher,position,computer-vision,1,1,0,0,2,12,8.3,16.7,False
+Business Development Manager,position,computer-vision,1,1,0,0,1,7,14.3,14.3,True
+Data Engineer,position,computer-vision,1,0,1,0,1,12,8.3,8.3,False
+Executive / C-level,position,computer-vision,0,0,0,0,1,27,0.0,3.7,False
+Full-stack Developer,position,computer-vision,0,0,0,0,2,42,0.0,4.8,False
+Implementation / Onboarding,position,computer-vision,1,1,0,0,1,4,25.0,25.0,True
+Other / Unclassified,position,computer-vision,0,0,0,0,2,24,0.0,8.3,False
+Recruiter / Talent Acquisition,position,computer-vision,1,1,0,0,1,10,10.0,10.0,False
+Security Engineer,position,computer-vision,1,1,0,0,1,51,2.0,2.0,False
+Software Engineer,position,computer-vision,2,1,1,0,2,49,4.1,4.1,False
+Supply Chain / Logistics,position,computer-vision,0,0,0,0,1,2,0.0,50.0,True
+Technical Support / IT Support,position,computer-vision,2,1,1,0,2,11,18.2,18.2,False
+UX / Product Designer,position,computer-vision,0,0,0,0,1,20,0.0,5.0,False
+AI / ML Engineer,position,deep-learning,5,2,3,0,11,112,4.5,9.8,False
+AI Mentor / Instructor,position,deep-learning,1,1,0,0,1,5,20.0,20.0,True
+Account Manager,position,deep-learning,1,1,0,0,2,12,8.3,16.7,False
+Blockchain Developer,position,deep-learning,1,1,0,0,1,3,33.3,33.3,True
+Infrastructure / IT Admin,position,deep-learning,0,0,0,0,1,12,0.0,8.3,False
+Sales Engineer / Solutions,position,deep-learning,1,1,0,0,1,20,5.0,5.0,False
+Scientific Researcher,position,deep-learning,1,0,1,0,1,2,50.0,50.0,True
+Security Engineer,position,deep-learning,1,0,1,0,1,51,2.0,2.0,False
+Software Engineer,position,deep-learning,2,2,0,0,2,49,4.1,4.1,False
+Solutions / Technical Architect,position,deep-learning,1,1,0,0,1,18,5.6,5.6,False
+AI / ML Engineer,position,claude-anthropic,6,4,2,0,9,112,5.4,8.0,False
+AI Automation / Workflow Specialist,position,claude-anthropic,0,0,0,0,1,6,0.0,16.7,True
+AI Mentor / Instructor,position,claude-anthropic,1,1,0,0,1,5,20.0,20.0,True
+AI Product Manager,position,claude-anthropic,2,2,0,0,2,7,28.6,28.6,True
+Account Executive,position,claude-anthropic,0,0,0,0,1,32,0.0,3.1,False
+Content Marketing,position,claude-anthropic,1,1,0,0,1,2,50.0,50.0,True
+Content Writer / Creator,position,claude-anthropic,1,1,0,0,1,5,20.0,20.0,True
+Customer Support / Success,position,claude-anthropic,1,1,0,0,1,30,3.3,3.3,False
+Data Analyst / BI,position,claude-anthropic,1,1,0,0,2,11,9.1,18.2,False
+Data Governance,position,claude-anthropic,1,1,0,0,1,3,33.3,33.3,True
+Engineer (Other),position,claude-anthropic,1,1,0,0,3,34,2.9,8.8,False
+Executive / C-level,position,claude-anthropic,1,0,1,0,3,27,3.7,11.1,False
+Finance / Accounting,position,claude-anthropic,8,8,0,0,8,43,18.6,18.6,False
+Frontend Developer,position,claude-anthropic,1,1,0,0,1,13,7.7,7.7,False
+Full-stack Developer,position,claude-anthropic,1,1,0,0,3,42,2.4,7.1,False
+Graphic / Visual / Motion Designer,position,claude-anthropic,2,1,1,0,2,9,22.2,22.2,True
+Manager (Other),position,claude-anthropic,1,0,1,0,2,27,3.7,7.4,False
+Marketing Manager / Specialist,position,claude-anthropic,2,2,0,0,4,18,11.1,22.2,False
+Operations Manager / Analyst,position,claude-anthropic,1,0,1,0,2,17,5.9,11.8,False
+Partnerships / Alliances,position,claude-anthropic,0,0,0,0,1,14,0.0,7.1,False
+Product Manager / Owner,position,claude-anthropic,0,0,0,0,2,27,0.0,7.4,False
+Project / Program Manager,position,claude-anthropic,1,1,0,0,2,17,5.9,11.8,False
+QA / Test Engineer,position,claude-anthropic,2,2,0,0,3,11,18.2,27.3,False
+Recruiter / Talent Acquisition,position,claude-anthropic,1,1,0,0,1,10,10.0,10.0,False
+SDR / BDR,position,claude-anthropic,2,1,1,0,3,15,13.3,20.0,False
+SEO Specialist,position,claude-anthropic,1,1,0,0,4,9,11.1,44.4,True
+Sales / BD (Other),position,claude-anthropic,1,1,0,0,1,12,8.3,8.3,False
+Security Engineer,position,claude-anthropic,1,1,0,0,3,51,2.0,5.9,False
+Software Engineer,position,claude-anthropic,0,0,0,0,1,49,0.0,2.0,False
+Solutions / Technical Architect,position,claude-anthropic,0,0,0,0,1,18,0.0,5.6,False
+UX / Product Designer,position,claude-anthropic,1,1,0,0,1,20,5.0,5.0,False
+AI / ML Engineer,position,claude-code,4,1,3,0,11,112,3.6,9.8,False
+AI Automation / Workflow Specialist,position,claude-code,1,1,0,0,1,6,16.7,16.7,True
+Backend Developer,position,claude-code,1,0,1,0,1,17,5.9,5.9,False
+Data Analyst / BI,position,claude-code,2,1,1,0,2,11,18.2,18.2,False
+Data Engineer,position,claude-code,1,0,1,0,2,12,8.3,16.7,False
+Data Governance,position,claude-code,1,1,0,0,1,3,33.3,33.3,True
+Engineer (Other),position,claude-code,3,3,0,0,3,34,8.8,8.8,False
+Engineering Manager,position,claude-code,1,1,0,0,1,28,3.6,3.6,False
+Executive / Leadership (generic),position,claude-code,1,0,1,0,1,27,3.7,3.7,False
+Founding Engineer,position,claude-code,0,0,0,0,2,8,0.0,25.0,True
+Frontend Developer,position,claude-code,1,0,1,0,3,13,7.7,23.1,False
+Full-stack Developer,position,claude-code,1,0,1,0,2,42,2.4,4.8,False
+Graphic / Visual / Motion Designer,position,claude-code,2,2,0,0,2,9,22.2,22.2,True
+Product Manager / Owner,position,claude-code,3,2,1,0,4,27,11.1,14.8,False
+Project / Program Manager,position,claude-code,1,1,0,0,1,17,5.9,5.9,False
+QA / Test Engineer,position,claude-code,0,0,0,0,2,11,0.0,18.2,False
+SDR / BDR,position,claude-code,1,0,1,0,1,15,6.7,6.7,False
+SEO Specialist,position,claude-code,0,0,0,0,1,9,0.0,11.1,True
+Security Engineer,position,claude-code,2,1,1,0,2,51,3.9,3.9,False
+Software Engineer,position,claude-code,2,2,0,0,5,49,4.1,10.2,False
+UX / Product Designer,position,claude-code,1,0,1,0,2,20,5.0,10.0,False
+AI / ML Engineer,position,pytorch,9,7,2,0,14,112,8.0,12.5,False
+AI / ML Researcher,position,pytorch,3,3,0,0,4,12,25.0,33.3,False
+Blockchain Developer,position,pytorch,1,1,0,0,1,3,33.3,33.3,True
+Data Scientist,position,pytorch,3,2,1,0,5,33,9.1,15.2,False
+DevOps / SRE / Platform,position,pytorch,1,1,0,0,1,30,3.3,3.3,False
+Implementation / Onboarding,position,pytorch,1,1,0,0,1,4,25.0,25.0,True
+MLOps / ML Platform Engineer,position,pytorch,1,0,1,0,1,8,12.5,12.5,True
+Other / Unclassified,position,pytorch,0,0,0,0,2,24,0.0,8.3,False
+Sales Engineer / Solutions,position,pytorch,1,1,0,0,1,20,5.0,5.0,False
+Security Engineer,position,pytorch,1,0,1,0,1,51,2.0,2.0,False
+Software Engineer,position,pytorch,0,0,0,0,2,49,0.0,4.1,False
+Solutions / Technical Architect,position,pytorch,1,1,0,0,2,18,5.6,11.1,False
+AI / ML Engineer,position,openai-general,11,7,4,0,17,112,9.8,15.2,False
+Account Executive,position,openai-general,0,0,0,0,4,32,0.0,12.5,False
+Business Development Manager,position,openai-general,0,0,0,0,1,7,0.0,14.3,True
+Consultant (Other),position,openai-general,0,0,0,0,1,6,0.0,16.7,True
+Customer Support / Success,position,openai-general,0,0,0,0,3,30,0.0,10.0,False
+Data Scientist,position,openai-general,0,0,0,0,1,33,0.0,3.0,False
+Engineer (Other),position,openai-general,1,1,0,0,4,34,2.9,11.8,False
+Engineering Manager,position,openai-general,0,0,0,0,1,28,0.0,3.6,False
+Executive / C-level,position,openai-general,0,0,0,0,1,27,0.0,3.7,False
+Executive / Leadership (generic),position,openai-general,0,0,0,0,1,27,0.0,3.7,False
+Finance / Accounting,position,openai-general,0,0,0,0,1,43,0.0,2.3,False
+Full-stack Developer,position,openai-general,0,0,0,0,2,42,0.0,4.8,False
+Infrastructure / IT Admin,position,openai-general,0,0,0,0,1,12,0.0,8.3,False
+Manager (Other),position,openai-general,1,0,1,0,1,27,3.7,3.7,False
+Operations Manager / Analyst,position,openai-general,1,1,0,0,2,17,5.9,11.8,False
+Other / Unclassified,position,openai-general,0,0,0,0,1,24,0.0,4.2,False
+Partnerships / Alliances,position,openai-general,0,0,0,0,1,14,0.0,7.1,False
+Product Manager / Owner,position,openai-general,0,0,0,0,1,27,0.0,3.7,False
+SDR / BDR,position,openai-general,0,0,0,0,1,15,0.0,6.7,False
+Sales / BD (Other),position,openai-general,1,1,0,0,1,12,8.3,8.3,False
+Sales Engineer / Solutions,position,openai-general,0,0,0,0,4,20,0.0,20.0,False
+Sales Operations / RevOps,position,openai-general,0,0,0,0,1,1,0.0,100.0,True
+Security Engineer,position,openai-general,2,2,0,0,10,51,3.9,19.6,False
+Solutions / Technical Architect,position,openai-general,0,0,0,0,1,18,0.0,5.6,False
+UX / Product Designer,position,openai-general,0,0,0,0,2,20,0.0,10.0,False
+AI / ML Engineer,position,chatgpt,1,1,0,0,2,112,0.9,1.8,False
+AI Automation / Workflow Specialist,position,chatgpt,0,0,0,0,1,6,0.0,16.7,True
+AI Product Manager,position,chatgpt,1,1,0,0,1,7,14.3,14.3,True
+Account Executive,position,chatgpt,0,0,0,0,1,32,0.0,3.1,False
+Backend Developer,position,chatgpt,2,0,2,0,2,17,11.8,11.8,False
+Content Marketing,position,chatgpt,1,1,0,0,1,2,50.0,50.0,True
+Content Writer / Creator,position,chatgpt,1,1,0,0,1,5,20.0,20.0,True
+Customer Support / Success,position,chatgpt,1,0,1,0,1,30,3.3,3.3,False
+Engineer (Other),position,chatgpt,1,1,0,0,2,34,2.9,5.9,False
+Executive / C-level,position,chatgpt,0,0,0,0,1,27,0.0,3.7,False
+Finance / Accounting,position,chatgpt,2,2,0,0,2,43,4.7,4.7,False
+Full-stack Developer,position,chatgpt,1,0,1,0,1,42,2.4,2.4,False
+Graphic / Visual / Motion Designer,position,chatgpt,0,0,0,0,1,9,0.0,11.1,True
+Manager (Other),position,chatgpt,0,0,0,0,1,27,0.0,3.7,False
+Marketing Manager / Specialist,position,chatgpt,2,2,0,0,2,18,11.1,11.1,False
+Operations Manager / Analyst,position,chatgpt,1,0,1,0,1,17,5.9,5.9,False
+SDR / BDR,position,chatgpt,0,0,0,0,1,15,0.0,6.7,False
+SEO Specialist,position,chatgpt,1,1,0,0,7,9,11.1,77.8,True
+Security Engineer,position,chatgpt,0,0,0,0,1,51,0.0,2.0,False
+Software Engineer,position,chatgpt,0,0,0,0,1,49,0.0,2.0,False
+Specialist (Other),position,chatgpt,0,0,0,0,1,19,0.0,5.3,False
+Technical Support / IT Support,position,chatgpt,1,0,1,0,1,11,9.1,9.1,False
+AI / ML Engineer,position,gemini-google,3,1,2,0,6,112,2.7,5.4,False
+AI Automation / Workflow Specialist,position,gemini-google,0,0,0,0,1,6,0.0,16.7,True
+Account Executive,position,gemini-google,0,0,0,0,1,32,0.0,3.1,False
+Content Writer / Creator,position,gemini-google,1,1,0,0,1,5,20.0,20.0,True
+DevOps / SRE / Platform,position,gemini-google,0,0,0,0,1,30,0.0,3.3,False
+Executive / Leadership (generic),position,gemini-google,1,0,1,0,1,27,3.7,3.7,False
+Finance / Accounting,position,gemini-google,3,3,0,0,3,43,7.0,7.0,False
+Game Developer,position,gemini-google,0,0,0,0,1,1,0.0,100.0,True
+Manager (Other),position,gemini-google,1,0,1,0,2,27,3.7,7.4,False
+Marketing Manager / Specialist,position,gemini-google,2,2,0,0,2,18,11.1,11.1,False
+SDR / BDR,position,gemini-google,0,0,0,0,1,15,0.0,6.7,False
+SEO Specialist,position,gemini-google,1,1,0,0,6,9,11.1,66.7,True
+Specialist (Other),position,gemini-google,0,0,0,0,1,19,0.0,5.3,False
+AI / ML Engineer,position,tensorflow,4,4,0,0,9,112,3.6,8.0,False
+AI / ML Researcher,position,tensorflow,0,0,0,0,1,12,0.0,8.3,False
+AI Mentor / Instructor,position,tensorflow,1,1,0,0,1,5,20.0,20.0,True
+Blockchain Developer,position,tensorflow,1,1,0,0,1,3,33.3,33.3,True
+Data Scientist,position,tensorflow,2,2,0,0,2,33,6.1,6.1,False
+Full-stack Developer,position,tensorflow,0,0,0,0,1,42,0.0,2.4,False
+Implementation / Onboarding,position,tensorflow,1,1,0,0,1,4,25.0,25.0,True
+Sales Engineer / Solutions,position,tensorflow,1,1,0,0,1,20,5.0,5.0,False
+Security Engineer,position,tensorflow,1,0,1,0,1,51,2.0,2.0,False
+Solutions / Technical Architect,position,tensorflow,1,1,0,0,1,18,5.6,5.6,False
+AI / ML Engineer,position,copilot-unspecified,2,2,0,0,4,112,1.8,3.6,False
+AI Automation / Workflow Specialist,position,copilot-unspecified,1,0,1,0,1,6,16.7,16.7,True
+Account Executive,position,copilot-unspecified,0,0,0,0,1,32,0.0,3.1,False
+Backend Developer,position,copilot-unspecified,1,0,1,0,2,17,5.9,11.8,False
+Content Writer / Creator,position,copilot-unspecified,1,1,0,0,1,5,20.0,20.0,True
+Customer Support / Success,position,copilot-unspecified,0,0,0,0,1,30,0.0,3.3,False
+Finance / Accounting,position,copilot-unspecified,1,0,1,0,1,43,2.3,2.3,False
+Head of Engineering,position,copilot-unspecified,0,0,0,0,1,2,0.0,50.0,True
+MLOps / ML Platform Engineer,position,copilot-unspecified,1,0,1,0,1,8,12.5,12.5,True
+Project / Program Manager,position,copilot-unspecified,0,0,0,0,1,17,0.0,5.9,False
+QA / Test Engineer,position,copilot-unspecified,1,1,0,0,1,11,9.1,9.1,False
+Security Engineer,position,copilot-unspecified,1,1,0,0,1,51,2.0,2.0,False
+Specialist (Other),position,copilot-unspecified,1,1,0,0,1,19,5.3,5.3,False
+Technical Support / IT Support,position,copilot-unspecified,0,0,0,0,1,11,0.0,9.1,False
+AI / ML Engineer,position,langchain,8,4,4,0,12,112,7.1,10.7,False
+Executive / C-level,position,langchain,0,0,0,0,1,27,0.0,3.7,False
+Full-stack Developer,position,langchain,1,1,0,0,2,42,2.4,4.8,False
+Infrastructure / IT Admin,position,langchain,1,1,0,0,1,12,8.3,8.3,False
+Other / Unclassified,position,langchain,0,0,0,0,1,24,0.0,4.2,False
+Sales Engineer / Solutions,position,langchain,0,0,0,0,1,20,0.0,5.0,False
+AI / ML Engineer,position,zapier,0,0,0,0,1,112,0.0,0.9,False
+AI Automation / Workflow Specialist,position,zapier,2,2,0,0,2,6,33.3,33.3,True
+Customer Support / Success,position,zapier,0,0,0,0,3,30,0.0,10.0,False
+Engineer (Other),position,zapier,1,0,1,0,1,34,2.9,2.9,False
+Finance / Accounting,position,zapier,1,1,0,0,1,43,2.3,2.3,False
+Manager (Other),position,zapier,1,1,0,0,1,27,3.7,3.7,False
+Operations Manager / Analyst,position,zapier,2,2,0,0,2,17,11.8,11.8,False
+Sales / BD (Other),position,zapier,1,1,0,0,1,12,8.3,8.3,False
+Sales Engineer / Solutions,position,zapier,1,0,1,0,1,20,5.0,5.0,False
+AI / ML Engineer,position,scikit-learn,4,4,0,0,6,112,3.6,5.4,False
+AI / ML Researcher,position,scikit-learn,1,0,1,0,1,12,8.3,8.3,False
+Data Analyst / BI,position,scikit-learn,0,0,0,0,1,11,0.0,9.1,False
+Data Scientist,position,scikit-learn,4,4,0,0,4,33,12.1,12.1,False
+AI / ML Engineer,position,cursor-ai-ide,2,0,2,0,5,112,1.8,4.5,False
+AI Product Manager,position,cursor-ai-ide,1,1,0,0,1,7,14.3,14.3,True
+Backend Developer,position,cursor-ai-ide,1,0,1,0,1,17,5.9,5.9,False
+Data Scientist,position,cursor-ai-ide,0,0,0,0,1,33,0.0,3.0,False
+Product Manager / Owner,position,cursor-ai-ide,2,2,0,0,3,27,7.4,11.1,False
+Project / Program Manager,position,cursor-ai-ide,0,0,0,0,1,17,0.0,5.9,False
+SEO Specialist,position,cursor-ai-ide,0,0,0,0,1,9,0.0,11.1,True
+Software Engineer,position,cursor-ai-ide,1,1,0,0,3,49,2.0,6.1,False
+UX / Product Designer,position,cursor-ai-ide,1,0,1,0,2,20,5.0,10.0,False

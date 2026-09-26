@@ -1,0 +1,265 @@
+/* ============================================================
+   project.css — role-by-AI-skill heat map presentation
+   Consumes tokens.css roles only; no hardcoded colors.
+   Breakpoints: sm 640px · md 768px · lg 1024px (only these).
+   ============================================================ */
+
+/* ---------- sequential scale (single hue family, teal → slate) ----------
+   One sequential ramp shared by the 3D columns, the 2D table, and the
+   legend. Each class defines --col (fill) and --col-ink (readable text
+   color on that fill) once; faces/cells/legend all consume the vars.
+   Buckets: observed zero | >0–20 | 20–40 | 40–60 | 60–80 | 80–100
+   (percent of analyzable listings). Zero is OBSERVED ZERO (pale, flat)
+   — never styled as missing; cells with no scannable text would render
+   hollow (none exist in the approved population). */
+.seq-0 { --col: var(--rule-soft); --col-ink: var(--ink-soft); }
+.seq-1 { --col: oklch(0.93 0.03 178); --col-ink: var(--ink); }
+.seq-2 { --col: oklch(0.85 0.062 178); --col-ink: var(--ink); }
+.seq-3 { --col: oklch(0.76 0.085 179); --col-ink: var(--ink); }
+.seq-4 { --col: oklch(0.64 0.098 181); --col-ink: var(--paper); }
+.seq-5 { --col: oklch(0.51 0.09 186); --col-ink: var(--paper); }
+.seq-6 { --col: oklch(0.38 0.06 190); --col-ink: var(--paper); }
+
+.seq-cell-hollow {
+  background: repeating-linear-gradient(
+    45deg, transparent 0 4px, var(--rule) 4px 5px);
+}
+
+/* ---------- controls bar ---------- */
+.hm-controls {
+  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 24px;
+  margin-bottom: 12px;
+}
+.hm-control-group { display: flex; flex-direction: column; gap: 5px; }
+.hm-control-label {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.hm-tabs, .hm-seg { display: flex; }
+.hm-tabs button, .hm-seg button {
+  border: 1px solid rgb(41 84 92 / 0.4); background: var(--paper); cursor: pointer;
+  padding: 6px 14px; font-family: var(--font-mono); font-size: 11.5px;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink);
+  margin-left: -1px;
+}
+.hm-tabs button:first-child, .hm-seg button:first-child { margin-left: 0; }
+.hm-tabs button[aria-selected="true"], .hm-seg button[aria-pressed="true"] {
+  background: var(--ink); color: var(--canvas); border-color: var(--ink);
+}
+.hm-tabs button:hover:not([aria-selected="true"]),
+.hm-seg button:hover:not([aria-pressed="true"]) { background: var(--teal-soft); }
+.hm-select { min-width: 180px; }
+.hm-hint { font-size: 11.5px; color: var(--ink-soft); margin: 0; }
+
+/* ---------- 3D rotation toolbar ---------- */
+.hm-rotatebar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: 0 0 10px;
+}
+/* author display beats the UA [hidden] rule — restate it */
+.hm-rotatebar[hidden] { display: none; }
+.hm-rotatebar .spacer { flex: 1; }
+.hm-rotatebar .hint { font-size: 11px; color: var(--ink-soft); }
+
+/* ---------- 3D scene ---------- */
+.hm-stage {
+  position: relative; overflow: hidden;
+  border: 1px solid var(--rule); background: var(--paper);
+  height: clamp(380px, 56vw, 620px);
+  touch-action: none; cursor: grab;
+}
+.hm-stage.dragging { cursor: grabbing; }
+.hm-stage:focus-visible { outline: 2px solid var(--coral); outline-offset: 2px; }
+.hm-scene {
+  position: absolute; inset: 0;
+  perspective: 1600px; perspective-origin: 50% 30%;
+}
+.hm-world {
+  position: absolute; left: 50%; top: 58%;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%)
+    rotateX(calc(var(--tilt, 55) * 1deg)) rotateZ(calc(var(--rot, -35) * 1deg));
+  transition: transform 0.25s ease-out;
+}
+.hm-stage.dragging .hm-world { transition: none; }
+.hm-floor {
+  display: grid;
+  grid-template-columns: var(--gutter) repeat(var(--cols), var(--cw));
+  grid-auto-rows: var(--cd);
+  transform-style: preserve-3d;
+}
+/* floor base plate: faint grid rules under the columns */
+.hm-floor::before {
+  content: ""; position: absolute; inset: calc(-1 * var(--gap)) ;
+  border: 1px solid var(--rule); background: rgb(230 242 239 / 0.45);
+  transform: translateZ(-0.5px);
+}
+
+/* a cell = floor square + raised column (top + front + side faces) */
+.hm-cell { position: relative; transform-style: preserve-3d; }
+.hm-cell .face { position: absolute; }
+/* top face: the floor square lifted to the column height */
+.hm-cell .face-top {
+  inset: var(--half-gap);
+  transform: translateZ(calc(var(--h, 0) * 1px));
+  transition: transform 0.25s ease-out;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 10.5px; font-variant-numeric: tabular-nums;
+  background: var(--col); color: var(--col-ink);
+}
+.hm-cell .face-top:empty { display: none; }
+/* front + right faces: vertical walls of the column, darker than the top */
+.hm-cell .face-front, .hm-cell .face-side {
+  background-color: color-mix(in oklch, var(--col) 72%, black);
+  opacity: 0.95;
+}
+/* front wall rises from the cell's bottom edge */
+.hm-cell .face-front {
+  left: var(--half-gap); bottom: calc(-1 * var(--half-gap));
+  width: calc(100% - var(--gap)); height: calc(var(--h, 0) * 1px);
+  transform-origin: bottom; transform: rotateX(-90deg);
+}
+/* right wall rises from the cell's right edge */
+.hm-cell .face-side {
+  top: var(--half-gap); right: calc(-1 * var(--half-gap));
+  width: calc(var(--h, 0) * 1px); height: calc(100% - var(--gap));
+  transform-origin: right; transform: rotateY(90deg);
+}
+.hm-cell[data-sel="1"] .face-top { outline: 2px solid var(--coral); outline-offset: -2px; }
+.hm-cell:hover .face-top, .hm-cell:focus-visible .face-top { filter: brightness(1.12); }
+.hm-cell.zero .face-top { border: 1px solid var(--rule); }
+
+/* header + row-header slots inside the floor grid (position:relative so
+   the billboarded labels anchor to their own slot) */
+.hm-headslot, .hm-rowhead { position: relative; transform-style: preserve-3d; }
+
+/* billboarding labels: counter-rotate so they always face the camera */
+.hm-label {
+  position: absolute; transform-style: flat; pointer-events: none;
+  transform: rotateZ(calc(-1 * var(--rot, -35) * 1deg)) rotateX(calc(-1 * var(--tilt, 55) * 1deg));
+  white-space: nowrap; font-size: 11px; color: var(--ink);
+  background: rgb(246 251 250 / 0.92); padding: 2px 6px;
+  border: 1px solid var(--rule);
+}
+.hm-label.row-label {
+  right: 10px; top: 50%;
+  transform-origin: center;
+  translate: 0 -50%;
+}
+.hm-label.col-label {
+  bottom: calc(100% + 8px); left: 50%;
+  translate: -50% 0;
+  writing-mode: horizontal-tb;
+  max-width: 12ch; white-space: normal; text-align: center; line-height: 1.25;
+}
+.hm-label .n { font-family: var(--font-mono); font-size: 10px; color: var(--ink-soft); }
+.hm-label.flag::after { content: " · small n"; color: var(--coral); font-family: var(--font-mono); font-size: 9.5px; }
+
+/* column corner axis label */
+.hm-axis-note {
+  position: absolute; left: 12px; bottom: 10px;
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+/* ---------- 2D heat map table ---------- */
+.hm2d-wrap { overflow-x: auto; border: 1px solid var(--rule); background: var(--paper); }
+table.hm2d { border-collapse: collapse; width: 100%; font-size: 12px; min-width: 720px; }
+table.hm2d th, table.hm2d td { border: 1px solid var(--paper); padding: 0; }
+table.hm2d thead th {
+  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft);
+  background: var(--paper); padding: 8px 6px; vertical-align: bottom; text-align: left;
+  min-width: 72px;
+}
+table.hm2d tbody th {
+  text-align: left; font-weight: 600; font-size: 12px; padding: 8px;
+  background: rgb(230 242 239 / 0.55); min-width: 150px; cursor: pointer;
+}
+table.hm2d tbody th .n { display: block; font-family: var(--font-mono); font-size: 10px; color: var(--ink-soft); font-weight: 400; }
+table.hm2d tbody th .smallflag { color: var(--coral); font-family: var(--font-mono); font-size: 9.5px; }
+table.hm2d td {
+  width: calc((100% - 170px) / var(--cols)); min-width: 58px; height: 40px;
+  text-align: center; vertical-align: middle; cursor: help;
+  font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: 11.5px;
+  background: var(--col); color: var(--col-ink);
+}
+table.hm2d td[data-sel="1"] { outline: 2px solid var(--coral); outline-offset: -2px; }
+table.hm2d tbody tr:hover td { filter: brightness(1.06); }
+
+/* ---------- legend ---------- */
+.hm-legend {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+  margin-top: 14px; font-size: 11.5px; color: var(--ink-soft);
+}
+.hm-legend .ramp { display: flex; }
+.hm-legend .ramp span {
+  width: 44px; height: 12px; display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 9px;
+  background: var(--col); color: var(--col-ink);
+}
+.hm-legend .key { display: flex; align-items: center; gap: 6px; }
+.hm-legend .key .sw { width: 12px; height: 12px; border: 1px solid var(--rule); display: inline-block; background: var(--col); }
+
+/* ---------- evidence panel ---------- */
+.hm-evidence { margin-top: 24px; border: 1px solid rgb(41 84 92 / 0.3); background: var(--paper); }
+.hm-evidence-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px;
+  border-bottom: 1px solid var(--rule); padding: 14px 16px;
+}
+.hm-evidence-head h3 { margin: 0; font-size: 15px; }
+.hm-evidence-head .ev-stat { font-size: 12.5px; color: var(--ink-soft); }
+.hm-evidence-head .ev-stat b { color: var(--ink); }
+.hm-evidence-body { padding: 8px 16px 14px; max-height: 420px; overflow-y: auto; }
+.ev-empty { color: var(--ink-soft); font-size: 12.5px; padding: 12px 0; }
+.ev-warn {
+  border-left: 2px solid var(--coral); padding: 4px 10px; margin: 10px 0;
+  font-size: 12px; color: var(--ink-soft); background: rgb(228 116 84 / 0.06);
+}
+.ev-list { list-style: none; margin: 0; padding: 0; }
+.ev-list li { border-top: 1px solid var(--rule-soft); padding: 10px 0; }
+.ev-list li:first-child { border-top: 0; }
+.ev-status {
+  display: inline-block; font-family: var(--font-mono); font-size: 9.5px;
+  text-transform: uppercase; letter-spacing: 0.1em; padding: 1px 6px;
+  border: 1px solid var(--rule); color: var(--ink-soft); margin-right: 8px;
+}
+.ev-status.required { background: var(--ink); color: var(--canvas); border-color: var(--ink); }
+.ev-status.preferred { background: var(--teal-soft); color: var(--ink); border-color: var(--teal); }
+.ev-status.responsibility, .ev-status.mentioned { background: var(--paper); }
+.ev-title { font-weight: 600; font-size: 13px; }
+.ev-employer { color: var(--ink-soft); font-size: 12px; }
+.ev-excerpt { margin: 6px 0 0; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft); }
+.ev-excerpt b { color: var(--coral); font-weight: 600; }
+.ev-wording { font-family: var(--font-mono); font-size: 10.5px; color: var(--coral); }
+
+/* ---------- drill-down panel ---------- */
+.hm-drill { margin-top: 20px; border: 1px dashed rgb(41 84 92 / 0.4); background: var(--paper); }
+.hm-drill-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px;
+  border-bottom: 1px solid var(--rule); padding: 12px 16px;
+}
+.hm-drill-head h3 { margin: 0; font-size: 14px; }
+.hm-drill-head .ev-stat { font-size: 12px; color: var(--ink-soft); }
+.hm-drill .hm2d-wrap { border: 0; border-top: 0; }
+.hm-drill table.hm2d { min-width: 640px; }
+.hm-drill table.hm2d td { height: 34px; }
+.hm-drill-close {
+  margin-left: auto; border: 1px solid var(--rule); background: var(--paper);
+  cursor: pointer; padding: 3px 10px; font-family: var(--font-mono); font-size: 10.5px;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.hm-drill-close:hover { background: var(--ink); color: var(--canvas); }
+
+/* ---------- methodology cells reuse .cellgrid from components.css ---------- */
+@media (min-width: 1024px) {
+  .cellgrid.cols-lg2 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 767px) {
+  .hm-stage { height: 360px; }
+  .hm-label { font-size: 10px; padding: 1px 4px; }
+  .hm-label.col-label { max-width: 9ch; }
+  .hm-evidence-body { max-height: 340px; }
+}

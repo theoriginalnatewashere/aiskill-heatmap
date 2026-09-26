@@ -1,0 +1,201 @@
+group,level,skill_id,req_or_pref,required,preferred,overlap,mention,denominator,pct_req_or_pref,pct_mention,small_group
+Data / AI,family,machine-learning,58,45,13,0,99,245,23.7,40.4,False
+Design,family,machine-learning,3,2,1,0,3,29,10.3,10.3,False
+Engineering,family,machine-learning,44,24,20,0,72,330,13.3,21.8,False
+Executive / Leadership,family,machine-learning,7,6,1,0,10,54,13.0,18.5,False
+Finance / Legal,family,machine-learning,2,0,2,0,5,58,3.4,8.6,False
+HR / People,family,machine-learning,3,2,1,0,4,24,12.5,16.7,False
+Marketing,family,machine-learning,2,2,0,0,4,34,5.9,11.8,False
+Operations,family,machine-learning,9,6,3,0,23,101,8.9,22.8,False
+Other,family,machine-learning,1,1,0,0,5,24,4.2,20.8,False
+Product,family,machine-learning,6,4,2,0,8,27,22.2,29.6,False
+Research,family,machine-learning,1,0,1,0,1,3,33.3,33.3,True
+Sales / BD,family,machine-learning,11,8,3,0,19,113,9.7,16.8,False
+Support / Success,family,machine-learning,6,4,2,0,7,45,13.3,15.6,False
+Content / Writing,family,ai-literacy-ai-tool-usage,4,2,2,0,5,8,50.0,62.5,True
+Data / AI,family,ai-literacy-ai-tool-usage,23,19,4,0,37,245,9.4,15.1,False
+Design,family,ai-literacy-ai-tool-usage,13,11,2,0,17,29,44.8,58.6,False
+Engineering,family,ai-literacy-ai-tool-usage,34,24,10,0,51,330,10.3,15.5,False
+Executive / Leadership,family,ai-literacy-ai-tool-usage,3,3,0,0,7,54,5.6,13.0,False
+Finance / Legal,family,ai-literacy-ai-tool-usage,10,9,1,0,14,58,17.2,24.1,False
+HR / People,family,ai-literacy-ai-tool-usage,5,5,0,0,7,24,20.8,29.2,False
+Marketing,family,ai-literacy-ai-tool-usage,11,10,1,0,13,34,32.4,38.2,False
+Operations,family,ai-literacy-ai-tool-usage,15,11,4,0,29,101,14.9,28.7,False
+Other,family,ai-literacy-ai-tool-usage,4,0,4,0,5,24,16.7,20.8,False
+Product,family,ai-literacy-ai-tool-usage,6,5,1,0,9,27,22.2,33.3,False
+Sales / BD,family,ai-literacy-ai-tool-usage,14,10,4,0,22,113,12.4,19.5,False
+Support / Success,family,ai-literacy-ai-tool-usage,8,6,2,0,15,45,17.8,33.3,False
+Content / Writing,family,ai-agents-agentic-workflows,0,0,0,0,2,8,0.0,25.0,True
+Data / AI,family,ai-agents-agentic-workflows,41,19,22,0,76,245,16.7,31.0,False
+Design,family,ai-agents-agentic-workflows,2,2,0,0,5,29,6.9,17.2,False
+Engineering,family,ai-agents-agentic-workflows,40,27,13,0,95,330,12.1,28.8,False
+Executive / Leadership,family,ai-agents-agentic-workflows,11,7,4,0,21,54,20.4,38.9,False
+Finance / Legal,family,ai-agents-agentic-workflows,0,0,0,0,6,58,0.0,10.3,False
+HR / People,family,ai-agents-agentic-workflows,0,0,0,0,1,24,0.0,4.2,False
+Marketing,family,ai-agents-agentic-workflows,2,2,0,0,6,34,5.9,17.6,False
+Operations,family,ai-agents-agentic-workflows,7,6,1,0,16,101,6.9,15.8,False
+Other,family,ai-agents-agentic-workflows,0,0,0,0,5,24,0.0,20.8,False
+Product,family,ai-agents-agentic-workflows,1,0,1,0,9,27,3.7,33.3,False
+Sales / BD,family,ai-agents-agentic-workflows,8,6,2,0,40,113,7.1,35.4,False
+Support / Success,family,ai-agents-agentic-workflows,5,5,0,0,10,45,11.1,22.2,False
+Content / Writing,family,llms-large-language-models,0,0,0,0,1,8,0.0,12.5,True
+Data / AI,family,llms-large-language-models,50,25,25,0,83,245,20.4,33.9,False
+Design,family,llms-large-language-models,3,2,1,0,6,29,10.3,20.7,False
+Engineering,family,llms-large-language-models,29,19,10,0,55,330,8.8,16.7,False
+Executive / Leadership,family,llms-large-language-models,3,2,1,0,7,54,5.6,13.0,False
+Finance / Legal,family,llms-large-language-models,2,1,1,0,3,58,3.4,5.2,False
+Marketing,family,llms-large-language-models,5,5,0,0,9,34,14.7,26.5,False
+Operations,family,llms-large-language-models,4,3,1,0,7,101,4.0,6.9,False
+Other,family,llms-large-language-models,1,1,0,0,6,24,4.2,25.0,False
+Product,family,llms-large-language-models,3,0,3,0,5,27,11.1,18.5,False
+Sales / BD,family,llms-large-language-models,6,4,2,0,9,113,5.3,8.0,False
+Support / Success,family,llms-large-language-models,3,3,0,0,3,45,6.7,6.7,False
+Content / Writing,family,data-science,0,0,0,0,3,8,0.0,37.5,True
+Data / AI,family,data-science,33,25,8,0,61,245,13.5,24.9,False
+Design,family,data-science,0,0,0,0,1,29,0.0,3.4,False
+Engineering,family,data-science,4,2,2,0,47,330,1.2,14.2,False
+Executive / Leadership,family,data-science,1,1,0,0,4,54,1.9,7.4,False
+Finance / Legal,family,data-science,0,0,0,0,10,58,0.0,17.2,False
+HR / People,family,data-science,0,0,0,0,4,24,0.0,16.7,False
+Marketing,family,data-science,2,2,0,0,2,34,5.9,5.9,False
+Operations,family,data-science,4,4,0,0,10,101,4.0,9.9,False
+Other,family,data-science,1,1,0,0,3,24,4.2,12.5,False
+Product,family,data-science,3,1,2,0,5,27,11.1,18.5,False
+Research,family,data-science,0,0,0,0,1,3,0.0,33.3,True
+Sales / BD,family,data-science,1,1,0,0,9,113,0.9,8.0,False
+Support / Success,family,data-science,0,0,0,0,3,45,0.0,6.7,False
+Content / Writing,family,generative-ai,0,0,0,0,2,8,0.0,25.0,True
+Data / AI,family,generative-ai,8,4,4,0,17,245,3.3,6.9,False
+Design,family,generative-ai,3,2,1,0,4,29,10.3,13.8,False
+Engineering,family,generative-ai,7,6,1,0,9,330,2.1,2.7,False
+Executive / Leadership,family,generative-ai,2,1,1,0,4,54,3.7,7.4,False
+Finance / Legal,family,generative-ai,1,1,0,0,4,58,1.7,6.9,False
+Marketing,family,generative-ai,2,2,0,0,2,34,5.9,5.9,False
+Operations,family,generative-ai,3,2,1,0,5,101,3.0,5.0,False
+Sales / BD,family,generative-ai,1,1,0,0,2,113,0.9,1.8,False
+Support / Success,family,generative-ai,0,0,0,0,1,45,0.0,2.2,False
+Content / Writing,family,mlops-model-deployment,0,0,0,0,1,8,0.0,12.5,True
+Data / AI,family,mlops-model-deployment,13,8,5,0,20,245,5.3,8.2,False
+Engineering,family,mlops-model-deployment,6,5,1,0,11,330,1.8,3.3,False
+Executive / Leadership,family,mlops-model-deployment,1,1,0,0,1,54,1.9,1.9,False
+Marketing,family,mlops-model-deployment,0,0,0,0,1,34,0.0,2.9,False
+Operations,family,mlops-model-deployment,0,0,0,0,2,101,0.0,2.0,False
+Other,family,mlops-model-deployment,0,0,0,0,1,24,0.0,4.2,False
+Sales / BD,family,mlops-model-deployment,0,0,0,0,2,113,0.0,1.8,False
+Data / AI,family,rag-retrieval-augmented-generation,12,7,5,0,21,245,4.9,8.6,False
+Engineering,family,rag-retrieval-augmented-generation,3,3,0,0,5,330,0.9,1.5,False
+Operations,family,rag-retrieval-augmented-generation,0,0,0,0,1,101,0.0,1.0,False
+Other,family,rag-retrieval-augmented-generation,0,0,0,0,1,24,0.0,4.2,False
+Sales / BD,family,rag-retrieval-augmented-generation,1,0,1,0,4,113,0.9,3.5,False
+Support / Success,family,rag-retrieval-augmented-generation,1,1,0,0,1,45,2.2,2.2,False
+Data / AI,family,workflow-process-automation,2,2,0,0,4,245,0.8,1.6,False
+Engineering,family,workflow-process-automation,1,1,0,0,2,330,0.3,0.6,False
+Executive / Leadership,family,workflow-process-automation,1,0,1,0,3,54,1.9,5.6,False
+Finance / Legal,family,workflow-process-automation,5,3,2,0,9,58,8.6,15.5,False
+HR / People,family,workflow-process-automation,0,0,0,0,1,24,0.0,4.2,False
+Operations,family,workflow-process-automation,3,2,1,0,4,101,3.0,4.0,False
+Other,family,workflow-process-automation,3,1,2,0,3,24,12.5,12.5,False
+Sales / BD,family,workflow-process-automation,1,0,1,0,4,113,0.9,3.5,False
+Support / Success,family,workflow-process-automation,1,1,0,0,2,45,2.2,4.4,False
+Data / AI,family,model-evaluation-evals,9,6,3,0,18,245,3.7,7.3,False
+Engineering,family,model-evaluation-evals,4,1,3,0,6,330,1.2,1.8,False
+Finance / Legal,family,model-evaluation-evals,0,0,0,0,1,58,0.0,1.7,False
+Marketing,family,model-evaluation-evals,0,0,0,0,1,34,0.0,2.9,False
+Operations,family,model-evaluation-evals,1,1,0,0,1,101,1.0,1.0,False
+Product,family,model-evaluation-evals,0,0,0,0,1,27,0.0,3.7,False
+Sales / BD,family,model-evaluation-evals,1,1,0,0,1,113,0.9,0.9,False
+Data / AI,family,computer-vision,6,4,2,0,8,245,2.4,3.3,False
+Design,family,computer-vision,0,0,0,0,1,29,0.0,3.4,False
+Engineering,family,computer-vision,3,2,1,0,5,330,0.9,1.5,False
+Executive / Leadership,family,computer-vision,0,0,0,0,1,54,0.0,1.9,False
+HR / People,family,computer-vision,1,1,0,0,1,24,4.2,4.2,False
+Operations,family,computer-vision,0,0,0,0,1,101,0.0,1.0,False
+Other,family,computer-vision,0,0,0,0,2,24,0.0,8.3,False
+Sales / BD,family,computer-vision,1,1,0,0,1,113,0.9,0.9,False
+Support / Success,family,computer-vision,3,2,1,0,3,45,6.7,6.7,False
+Data / AI,family,deep-learning,6,3,3,0,12,245,2.4,4.9,False
+Engineering,family,deep-learning,5,4,1,0,6,330,1.5,1.8,False
+Research,family,deep-learning,1,0,1,0,1,3,33.3,33.3,True
+Sales / BD,family,deep-learning,2,2,0,0,3,113,1.8,2.7,False
+Content / Writing,family,claude-anthropic,1,1,0,0,1,8,12.5,12.5,True
+Data / AI,family,claude-anthropic,11,9,2,0,16,245,4.5,6.5,False
+Design,family,claude-anthropic,3,2,1,0,3,29,10.3,10.3,False
+Engineering,family,claude-anthropic,6,6,0,0,15,330,1.8,4.5,False
+Executive / Leadership,family,claude-anthropic,1,0,1,0,3,54,1.9,5.6,False
+Finance / Legal,family,claude-anthropic,8,8,0,0,8,58,13.8,13.8,False
+HR / People,family,claude-anthropic,1,1,0,0,1,24,4.2,4.2,False
+Marketing,family,claude-anthropic,4,4,0,0,9,34,11.8,26.5,False
+Operations,family,claude-anthropic,3,1,2,0,6,101,3.0,5.9,False
+Product,family,claude-anthropic,0,0,0,0,2,27,0.0,7.4,False
+Sales / BD,family,claude-anthropic,3,2,1,0,6,113,2.7,5.3,False
+Support / Success,family,claude-anthropic,1,1,0,0,1,45,2.2,2.2,False
+Data / AI,family,claude-code,9,4,5,0,17,245,3.7,6.9,False
+Design,family,claude-code,3,2,1,0,4,29,10.3,13.8,False
+Engineering,family,claude-code,11,7,4,0,21,330,3.3,6.4,False
+Executive / Leadership,family,claude-code,1,0,1,0,1,54,1.9,1.9,False
+Marketing,family,claude-code,0,0,0,0,1,34,0.0,2.9,False
+Operations,family,claude-code,1,1,0,0,1,101,1.0,1.0,False
+Product,family,claude-code,3,2,1,0,4,27,11.1,14.8,False
+Sales / BD,family,claude-code,1,0,1,0,1,113,0.9,0.9,False
+Data / AI,family,pytorch,16,12,4,0,24,245,6.5,9.8,False
+Engineering,family,pytorch,4,3,1,0,7,330,1.2,2.1,False
+Other,family,pytorch,0,0,0,0,2,24,0.0,8.3,False
+Sales / BD,family,pytorch,1,1,0,0,1,113,0.9,0.9,False
+Support / Success,family,pytorch,1,1,0,0,1,45,2.2,2.2,False
+Data / AI,family,openai-general,11,7,4,0,18,245,4.5,7.3,False
+Design,family,openai-general,0,0,0,0,2,29,0.0,6.9,False
+Engineering,family,openai-general,3,3,0,0,19,330,0.9,5.8,False
+Executive / Leadership,family,openai-general,0,0,0,0,2,54,0.0,3.7,False
+Finance / Legal,family,openai-general,0,0,0,0,1,58,0.0,1.7,False
+Operations,family,openai-general,2,1,1,0,4,101,2.0,4.0,False
+Other,family,openai-general,0,0,0,0,1,24,0.0,4.2,False
+Product,family,openai-general,0,0,0,0,1,27,0.0,3.7,False
+Sales / BD,family,openai-general,1,1,0,0,13,113,0.9,11.5,False
+Support / Success,family,openai-general,0,0,0,0,3,45,0.0,6.7,False
+Content / Writing,family,chatgpt,1,1,0,0,1,8,12.5,12.5,True
+Data / AI,family,chatgpt,2,2,0,0,4,245,0.8,1.6,False
+Design,family,chatgpt,0,0,0,0,1,29,0.0,3.4,False
+Engineering,family,chatgpt,4,1,3,0,7,330,1.2,2.1,False
+Executive / Leadership,family,chatgpt,0,0,0,0,1,54,0.0,1.9,False
+Finance / Legal,family,chatgpt,2,2,0,0,2,58,3.4,3.4,False
+Marketing,family,chatgpt,4,4,0,0,10,34,11.8,29.4,False
+Operations,family,chatgpt,1,0,1,0,3,101,1.0,3.0,False
+Sales / BD,family,chatgpt,0,0,0,0,2,113,0.0,1.8,False
+Support / Success,family,chatgpt,2,0,2,0,2,45,4.4,4.4,False
+Content / Writing,family,gemini-google,1,1,0,0,1,8,12.5,12.5,True
+Data / AI,family,gemini-google,3,1,2,0,7,245,1.2,2.9,False
+Engineering,family,gemini-google,0,0,0,0,2,330,0.0,0.6,False
+Executive / Leadership,family,gemini-google,1,0,1,0,1,54,1.9,1.9,False
+Finance / Legal,family,gemini-google,3,3,0,0,3,58,5.2,5.2,False
+Marketing,family,gemini-google,3,3,0,0,8,34,8.8,23.5,False
+Operations,family,gemini-google,1,0,1,0,3,101,1.0,3.0,False
+Sales / BD,family,gemini-google,0,0,0,0,2,113,0.0,1.8,False
+Data / AI,family,tensorflow,7,7,0,0,13,245,2.9,5.3,False
+Engineering,family,tensorflow,3,2,1,0,4,330,0.9,1.2,False
+Sales / BD,family,tensorflow,1,1,0,0,1,113,0.9,0.9,False
+Support / Success,family,tensorflow,1,1,0,0,1,45,2.2,2.2,False
+Content / Writing,family,copilot-unspecified,1,1,0,0,1,8,12.5,12.5,True
+Data / AI,family,copilot-unspecified,4,2,2,0,6,245,1.6,2.4,False
+Engineering,family,copilot-unspecified,3,2,1,0,5,330,0.9,1.5,False
+Finance / Legal,family,copilot-unspecified,1,0,1,0,1,58,1.7,1.7,False
+Operations,family,copilot-unspecified,1,1,0,0,2,101,1.0,2.0,False
+Sales / BD,family,copilot-unspecified,0,0,0,0,1,113,0.0,0.9,False
+Support / Success,family,copilot-unspecified,0,0,0,0,2,45,0.0,4.4,False
+Data / AI,family,langchain,8,4,4,0,12,245,3.3,4.9,False
+Engineering,family,langchain,2,2,0,0,3,330,0.6,0.9,False
+Executive / Leadership,family,langchain,0,0,0,0,1,54,0.0,1.9,False
+Other,family,langchain,0,0,0,0,1,24,0.0,4.2,False
+Sales / BD,family,langchain,0,0,0,0,1,113,0.0,0.9,False
+Data / AI,family,zapier,2,2,0,0,3,245,0.8,1.2,False
+Engineering,family,zapier,1,0,1,0,1,330,0.3,0.3,False
+Finance / Legal,family,zapier,1,1,0,0,1,58,1.7,1.7,False
+Operations,family,zapier,3,3,0,0,3,101,3.0,3.0,False
+Sales / BD,family,zapier,2,1,1,0,2,113,1.8,1.8,False
+Support / Success,family,zapier,0,0,0,0,3,45,0.0,6.7,False
+Data / AI,family,scikit-learn,9,8,1,0,12,245,3.7,4.9,False
+Data / AI,family,cursor-ai-ide,3,1,2,0,7,245,1.2,2.9,False
+Design,family,cursor-ai-ide,1,0,1,0,2,29,3.4,6.9,False
+Engineering,family,cursor-ai-ide,2,1,1,0,4,330,0.6,1.2,False
+Marketing,family,cursor-ai-ide,0,0,0,0,1,34,0.0,2.9,False
+Operations,family,cursor-ai-ide,0,0,0,0,1,101,0.0,1.0,False
+Product,family,cursor-ai-ide,2,2,0,0,3,27,7.4,11.1,False
