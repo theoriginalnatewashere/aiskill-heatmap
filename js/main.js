@@ -41,55 +41,45 @@ function nav() {
   return `<nav class="topnav" aria-label="Dashboard sections">
   <ul>
     <li><a href="#heat-map">Heat map</a></li>
-    <li><a href="#method">Method &amp; data</a></li>
+    <li><a href="#method">How I built this</a></li>
     <li><a href="#limitations">Limitations</a></li>
     <li><a href="#about">About</a></li>
   </ul>
 </nav>`;
 }
 
-/* ---------- section 02: method ---------- */
+/* ---------- section 02: how I built this ---------- */
 
 function methodSection() {
   const steps = [
     {
-      label: "Population",
-      h: "1,095 eligible listings",
-      p: `The validated pipeline processed 1,101 candidate postings (1,035 collected 2026-09-25 + 66 restored after duplicate-quality review) and re-applied the researcher's documented AI-relevance rule, excluding 6. Posting window ${esc(P.window_from)} → ${esc(P.window_to)}; sources: Jobicy, HN “Who is hiring?” (Aug + Sep 2026), Arbeitnow, RemoteOK, Remotive.`,
+      h: "Gather the postings",
+      p: `I used listings collected from five publicly accessible sources in August and September 2026, preserving descriptions and source links so each result could be traced to its evidence.`,
     },
     {
-      label: "Measure",
-      h: "Required or preferred (default)",
-      p: `A skill is counted once per listing when the posting explicitly requires or prefers it (status assigned by the pipeline from section headers and sentence cues; benefits and about-company text excluded). “Any mention” — including responsibilities and passing mentions — is offered as a clearly labeled secondary view.`,
+      h: "Work out which jobs count",
+      p: `The collection was checked for AI relevance and duplicates, producing ${fmtN(P.eligible)} eligible postings. Some remain flagged for review. These results describe the collected sample.`,
     },
     {
-      label: "Denominators",
-      h: "Listings with scannable text per role",
-      p: `Percentages use each role's analyzable listings (full or partial descriptions): 1,094 full + 1 partial overall. Rows are the 14 validated role families; the drill-down uses normalized positions with matching position-level denominators.`,
+      h: "Read the requirements",
+      p: `I separated required and preferred skills from responsibilities and passing mentions. Equivalent terms were grouped, with skills and named tools kept distinct. Each extracted requirement retains supporting wording from the posting.`,
     },
     {
-      label: "Skill selection",
-      h: "Top 12 capabilities + top 12 tools",
-      p: `Skills and tools are the standardized keywords with the highest required-or-preferred volume across the approved population (ties broken by mention volume, then name), from the pipeline's ~200-term standardized dictionary. Ordering is identical across every role and view.`,
+      h: "Make roles comparable",
+      p: `Related titles were grouped into role families. Each cell shows the percentage of that role’s analyzable listings requiring or preferring a skill, counted once per listing. Select a cell to inspect counts and source evidence.`,
     },
     {
-      label: "Scale",
-      h: "One shared 0–100% scale",
-      p: `Height and color encode the same percentage everywhere — 3D and 2D views, all roles, all filters. Every listing was scanned for every keyword, so an empty cell is an observed zero, never missing data. Groups with fewer than 10 analyzable listings are flagged.`,
-    },
-    {
-      label: "Evidence",
-      h: "Every cell traces back",
-      p: `Selecting a cell lists the matching postings with verbatim requirement wording, the surrounding sentence, and a link to the source listing. Selecting a role family drills down into its normalized positions using position-level denominators.`,
+      h: "Show the limits",
+      p: `The sources favor remote work and exclude several major platforms. Small groups need cautious interpretation. Use this snapshot to explore employer expectations and possible learning priorities; it cannot establish market-wide demand or growth.`,
     },
   ];
   return `<section class="section" id="method">
-  <div class="section-head"><span class="section-num num">02</span><h2>Method &amp; data</h2></div>
-  <p class="section-lede">How the heat map is computed, and what each number means. The full pipeline (validation, classification, keyword extraction) is deterministic and rerunnable: <span class="num">python scripts/run_pipeline.py</span>; the visualization data layer is <span class="num">visualization/scripts/build_data.py</span>.</p>
+  <div class="section-head"><span class="section-num num">02</span><h2>How I built this</h2></div>
+  <p class="section-lede">I wanted to understand what “AI skills” means in actual job postings across engineering, marketing, operations, and other roles. This heat map lets you start with a role and explore the skills employers explicitly request.</p>
   <div class="cellgrid cols-lg3">
     ${steps.map((s, i) => `<div class="method-step">
-      <span class="step-label num">STEP ${String(i + 1).padStart(2, "0")} · ${esc(s.label)}</span>
-      <h3>${esc(s.h)}</h3><p>${s.p}</p>
+      <span class="step-label num">STEP ${String(i + 1).padStart(2, "0")}</span>
+      <h3>${esc(s.h)}</h3><p>${esc(s.p)}</p>
     </div>`).join("\n")}
   </div>
 </section>`;
